@@ -8,9 +8,9 @@ default: &default
 
 development:
   <<: *default
-  database: Rails-myapp_development
+  database: myapp_development
 
 
 test:
   <<: *default
-  database: Rails-myapp_test
+  database: myapp_test

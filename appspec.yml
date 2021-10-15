@@ -12,7 +12,7 @@ permissions:
 hooks:
   ApplicationStart:
     - location: scripts/Application.sh
-      #runas: ubuntu
+      runas: ubuntu
   #ApplicationStart:
     #- location: scripts/ApplicationStart.sh
     #  runas: ubuntu

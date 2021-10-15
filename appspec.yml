@@ -10,9 +10,9 @@ permissions:
     owner: ubuntu
     group: ubuntu
 hooks:
-  ApplicationStop:
-    - location: scripts/ApplicationStop.sh
-      runas: ubuntu
   ApplicationStart:
-    - location: scripts/ApplicationStart.sh
-      runas: ubuntu
+    - location: scripts/Application.sh
+      #runas: ubuntu
+  #ApplicationStart:
+    #- location: scripts/ApplicationStart.sh
+    #  runas: ubuntu
